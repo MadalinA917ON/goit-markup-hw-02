@@ -1,0 +1,46 @@
+:root {
+    --link-color: #fff;
+    --link-color_hover: #ff6c00;
+    --heading-font-family: "Roboto", sans-serif;
+    --text-font-family: "Roboto", sans-serif;
+}
+
+*{
+    font-family: var(--text-font-family);
+}
+
+.portfolio-header{
+    background-color: #d9d9d9;
+}
+
+.portfolio-header .portfolio-nav-bar a,
+.portfolio-header .portfolio-nav-bar a:visited {
+    color: var(--link-color);
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.portfolio-header .portfolio-nav-bar a:hover {
+    color: var(--link-color_hover)
+}
+
+a{
+    text-decoration: none;
+}
+
+.filters-bar .all-button div
+.filters-bar .all-button div:visited {
+    color: var(--link-color);
+}
+
+
+
+
+
+.filters-bar .all-button li:hover {
+    color: var(--link-color_hover)
+}
+

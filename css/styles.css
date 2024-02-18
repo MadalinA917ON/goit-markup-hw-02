@@ -1,17 +1,85 @@
 :root {
     --link-color: #fff;
+    --link-color_hover: #ff6c00;
+    --heading-font-family: "Roboto", sans-serif;
+    --text-font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+ 
+}
+
+*{
+    font-family: var(--text-font-family);
 }
 
 .global-header{
-    background-color: rgb(183, 183, 214);
+    background-color: #d9d9d9;
 }
 
 .global-header .main-nav a,
 .global-header .main-nav a:visited {
     color: var(--link-color);
+    font-weight: 500;
 }
 
-.global-header .main-nav li {
+.global-header .contact,
+.global-header .contact:visited {
+    color: var(--link-color);
+}
+
+.global-header .email,
+.global-header .email:visited {
+    color: var(--link-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
     list-style-type: none;
+}
+
+.global-header .main-nav a:hover {
+    color: var(--link-color_hover);
+    cursor: pointer;
+}
+
+.hero-section .hero-button button:hover {
+    color: var(--link-color_hover)
+}
+
+.hero-section .hero-title {
+    color: var(--link-color);
+}
+
+.hero-section {
+    background-color: gray;
+}
+
+.button-service {
+    background-color: #4d5ae5;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    line-height: 1.5;
+
+}
+
+.logo::before {
+    content: "WEB";
+    color: blue;
 }
 
