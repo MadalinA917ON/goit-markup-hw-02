@@ -1,9 +1,78 @@
 :root {
+
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+    
     --link-color: #fff;
     --link-color_hover: #ff6c00;
     --heading-font-family: "Roboto", sans-serif;
     --text-font-family: "Roboto", sans-serif;
 }
+
+.logo {
+    box-sizing: 115px 24px;
+    font-family: var(--heading-font-family)
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .logo-web {
+    color: #4d5ae5;
+    font-weight: 800;
+    margin-left: 40px;
+  }
+  
+  .logo-studio {
+    color: #2e2f42;
+    font-weight: 800;
+  }
+
+.header-nav .main-nav a,
+.header-nav .main-nav a:visited{
+    color: var(--navy-blue);
+    font-weight: 500;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header-nav .main-nav a:hover {
+    color: var(--link-color_hover);
+}
+
+.hero-section {
+    background-color:  var(--navy-blue)
+}
+.hero-title {
+    color: var(--white);
+    margin-top: 100px;
+}
+
+.button-service {
+    background-color: #4d5ae5;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    width: 169px;
+    line-height: 1.5;
+    margin-left: 1000px;
+    margin-top: 300px;
+}
+
+
 
 h1,
 h2,
@@ -12,10 +81,9 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font-family);
-    font-weight: 700;
+    font-weight: 800;
  
 }
-
 *{
     font-family: var(--text-font-family);
 }
@@ -57,29 +125,6 @@ ul {
     color: var(--link-color_hover)
 }
 
-.hero-section .hero-title {
-    color: var(--link-color);
-}
 
-.hero-section {
-    background-color: gray;
-}
 
-.button-service {
-    background-color: #4d5ae5;
-    text-transform: uppercase;
-    border-width: 1px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    line-height: 1.5;
-
-}
-
-.logo::before {
-    content: "WEB";
-    color: blue;
-}
 
