@@ -90,7 +90,7 @@ a{
     text-decoration: none;
 }
 
-.filters-bar .buttto-all a,
+.filters-bar .button-all a,
 .filters-bar .button-all a:visited {
     color: var(--link-color_hover);
     
