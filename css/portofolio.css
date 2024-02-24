@@ -1,108 +1,71 @@
 :root {
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
-    --navy-blue: #2e2f42;
-    --green: #31d0aa;
-    --slate: #434455;
-    --light-slate: #8e8f99;
-    --cornflower: #e7e9fc;
-    --cloud: #f4f4fd;
-    --navy-blue-modal: rgba(46, 47, 66, 0.4);
-    --grey: rgba(46, 47, 66, 0.7);
-    --white: #fff;
-    --dairy: #fcfcfc;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
 
-    --link-color: #fff;
-    --link-color_hover: #ff6c00;
-    --heading-font-family: "Roboto", sans-serif;
-    --text-font-family: "Roboto", sans-serif;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
-
-.logo {
-    box-sizing: 115px 24px;
-    font-family: var(--heading-font-family)
-    font-size: 18px;
-    text-transform: uppercase;
-  }
-  
-  .logo-web {
-    color: #4d5ae5;
-    font-weight: 800;
-    margin-left: 40px;
-  }
-  
-  .logo-studio {
-    color: #2e2f42;
-    font-weight: 800;
-  }
-
-.header-nav .main-nav a,
-.header-nav .main-nav a:visited{
-    color: var(--navy-blue);
-    font-weight: 500;
-}
-
-.portfolio-logo::before {
-    content: "WEB";
-    color: #4d5ae5;
-font-weight: 800;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font-family);
-    font-weight: 800;
- 
+  font-family: var(--font-family);
 }
-
-*{
-    font-family: var(--text-font-family);
-}
-
-.portfolio-header{
-    background-color: #d9d9d9;
-}
-
-.portfolio-header .portfolio-nav-bar a,
-.portfolio-header .portfolio-nav-bar a:visited {
-    color: var(--navy-blue);
-    font-weight: 500;
-}
-
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
-
-.portfolio-header .portfolio-nav-bar a:hover {
-    color: var(--link-color_hover);
-
+.body-sectio {
+  font-family: var(--font-family);
+  font-weight: ;
 }
-
-a{
-    text-decoration: none;
+a:active {
+  color: var(--ocean);
 }
-
-.filters-bar .button-all a,
-.filters-bar .button-all a:visited {
-    color: var(--link-color_hover);
-    
+a:hover {
+  color: var(--green);
 }
-
-
-
-
-
-
-.filters-bar .all-button li:hover {
-    color: var(--link-color_hover);
+.logo-web {
+  color: var(--iris);
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-
---------
+.logo-studio {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+.portofolio-nav-bar {
+  color: var(--slate);
+}
+.button-all:hover {
+  background-color: var(--iris);
+}
+.button-website:hover {
+  background-color: var(--iris);
+}
+.button-app:hover {
+  background-color: var(--iris);
+}
+.button-marketing:hover {
+  background-color: var(--iris);
+}
